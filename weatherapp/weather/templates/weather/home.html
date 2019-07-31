@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style >
+    .he {
+      background-color: #53c2c0;
+      margin: 0px 0px 0px 0px;
+      padding-top :  30px;
+      padding-bottom: 30px;
+      color: white;
+
+    }
+    .searchbox {
+      margin-top: 50px;
+      align-content : flex-end;
+      padding-left: 500px;
+
+    }
+
+    .con {
+      font-family: 'Oxygen', sans-serif;
+          background-color: 	#e8e1d8;
+          width: 25%;
+          text-align: center;
+          height: 150px;
+          margin-top: 70px;
+          color: black;
+          box-shadow: 1px 2px #9c8f80;
+          padding-right: 18px;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
+      }  /* margin: 40px 100px 50px 40px; */
+    }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+    <h1 class="he" style="text-align:center">Whats today's Weather ? </h1>
+   </head>
+  <body>
+
+
+        <form  method="POST">
+          {% csrf_token %}
+          <div class="searchbox">
+            <!-- <input class="input" type="text" name="location" placeholder="City Name"> -->
+              {{ form.name }}
+            <button type="submit" class="btn btn-info-sm" name="button">Submit</button>
+        </div>
+        </form>
+
+      {% for citi in city_weather   %}
+      <div class="con">
+        <h1 class="h2">{{ citi.city}}</h1>
+        <h3 class="h4">{{ citi.temperature }} &#8457; </h3>
+        <br>
+        <img src="http://openweathermap.org/img/w/{{ citi.icon }}.png" alt="">
+
+      </div>
+      {% endfor %}
+
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
