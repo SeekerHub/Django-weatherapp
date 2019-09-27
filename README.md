@@ -1,0 +1,7 @@
+# Django-weatherapp
+
+________________________________________________________________________________________________________________________________
+A Web-application for generating current Weather report of the desired city using API from OpenWeathermap
+
+
+ 
