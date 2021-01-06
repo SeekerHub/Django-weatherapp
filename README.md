@@ -6,7 +6,7 @@ ________________________________________________________________________________
 - Deployment : pythonanywhere
 _______________________________________________________________________________________________________________________________
 
-A Web-application for generating current Weather report of the desired city required. The site uses using HTML and CSS for creating the front end of the website and in the backend for the response,  calling and interacting purpose Django framework is used. Alos, apart from that for the fetching the current weather report of a city  API from OpenWeathermap is used which is a quite user friendly API easy to acces and manage.
+A Web-application for generating current Weather report of the city required. The site uses using HTML and CSS for creating the front end of the website and in the backend for the response,  calling and interacting purpose Django framework is used. Alos, apart from that for the fetching the current weather report of a city  API from OpenWeathermap is used which is a quite user friendly API easy to acces and manage.
 
 Check out the site and enjoy. Feel free to review and suggest any kind of suugestions or changes.
 
