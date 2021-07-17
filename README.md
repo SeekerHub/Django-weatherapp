@@ -21,4 +21,4 @@ Check out the site and enjoy. Feel free to review and suggest any kind of suuges
 
 ## View
 
-![Website View](https://github.com/SeekerHub/Django-weatherapp/blob/master/images/dj.png)
+![Website View](https://github.com/SeekerHub/Django-weatherapp/blob/master/images/view.png)
