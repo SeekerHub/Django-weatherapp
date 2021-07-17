@@ -17,7 +17,7 @@ Check out the site and enjoy. Feel free to review and suggest any kind of suuges
 - Work  on User Interface.
  
 ## Deployed 
-- The Site is 'LIVE' Click [here](http://bg007.pythonanywhere.com/)
+- The Site is 'LIVE' Click [here](http://mehra.pythonanywhere.com/)
 
 ## View
 
