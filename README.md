@@ -12,8 +12,13 @@ Check out the site and enjoy. Feel free to review and suggest any kind of suuges
 
 
 ## Future Goals 
-To make the site more interactive and add more features to it like a login system, authentication etc.
-
+ 
+- To make the site more interactive and add more features to it like a login system, authentication etc.
+- Work  on User Interface.
  
 ## Deployed 
-The Site is 'LIVE' Click [here](http://bg007.pythonanywhere.com/)
+- The Site is 'LIVE' Click [here](http://bg007.pythonanywhere.com/)
+
+## View
+
+![Website View](https://github.com/SeekerHub/Django-weatherapp/blob/master/images/dj.png)
